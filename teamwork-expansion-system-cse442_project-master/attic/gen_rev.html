@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<title>UB CSE Peer Evaluation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+<style>
+hr {
+    clear: both;
+    visibility: hidden;
+}
+</style>
+
+<!-- Header -->
+<header id="header" class="w3-container w3-theme w3-padding">
+    <div id="headerContentName"><font class="w3-center w3-theme"><h1>UBCSE Survey Administrator - Search for Survey Results</h1></font></div>
+</header>
+
+<hr>
+<div id="login" class="w3-row-padding w3-center w3-padding" >
+  <form id="loginEmail" action="2fa_handler.php" class="w3-container w3-card-4 w3-light-blue" method='post'>
+
+    <div id="codeEntry" class="w3-section w3-center w3-display-container">
+      <label for="UBITname" style="font-weight: bold;">Option 1: Create all reviewing assignments with no additional pairs</label> 
+      <br>
+      <input type="file" style="float:left" name="fileToUpload" id="fileToUpload" accept=".csv"> <hr>
+
+      <input type='submit' name ="CodeSubmit" id="userCodeButton" class="w3-center w3-button w3-theme-dark" value='Make assignments'></input>
+      <hr>
+    </div>
+
+  </form>
+  </div>    
+  
+  <hr>
+<div id="login" class="w3-row-padding w3-center w3-padding">
+  <form id="loginEmail" action="2fa_handler.php" class="w3-container w3-card-4 w3-light-blue" method='post'>
+
+    <div id="codeEntry" class="w3-section w3-center w3-display-container">
+      <label for="UBITname" style="font-weight: bold;">Option 2: Create all reviewing assignments with additional pairs</label> 
+      <br>
+      <input type="file" style="float:left" name="fileToUpload" id="fileToUpload"> <hr>
+      <input type="file" style="float:left" name="fileToUpload" id="fileToUpload"> <hr>
+
+      <input type='submit' name ="CodeSubmit" id="userCodeButton" class="w3-center w3-button w3-theme-dark" value='Make assignments'></input>
+      <hr>
+    </div>
+
+  </form>
+  </div>    
+
+  <hr>
+<div id="login" class="w3-row-padding w3-center w3-padding">
+  <form id="loginEmail" action="2fa_handler.php" class="w3-container w3-card-4 w3-light-blue" method='post'>
+
+    <div id="codeEntry" class="w3-section w3-center w3-display-container">
+      <label for="UBITname" style="font-weight: bold;">Option 3: Create assignments for a subset of a team</label> 
+      <br>
+      <input type="file" style="float:left" name="fileToUpload" id="fileToUpload"> <hr>
+
+      <input type='submit' name ="CodeSubmit" id="userCodeButton" class="w3-center w3-button w3-theme-dark" value='Make assignments'></input>
+      <hr>
+    </div>
+
+  </form>
+  </div>    
+     
+
+  </body>
+  </html>
